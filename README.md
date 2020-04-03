@@ -1,2 +1,2 @@
 # uz-hunspell
-Uzbek hunspell dictionaries (Imlo xatolarini tekshirish uchun lug`at)
+O'zbek tilidagi matnlarda imlo xatolarini tekshirish uchun Hunspell lug'atlari (Uzbek Hunspell dictionary)
