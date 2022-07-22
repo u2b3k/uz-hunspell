@@ -911,12 +911,12 @@ SFX A 0 gacha-chi .
 
 # Egalik qo‘shimchalari
 SFX B Y 6
-SFX B 0 im/HI [^]		# qolgan so‘zlarda
-SFX B 0 ing/HI [^]		# qolgan so‘zlarda
-SFX B 0 i/HI [^]		# qolgan so‘zlarda
-SFX B 0 imiz/HI [^]		# qolgan so‘zlarda
-SFX B 0 ingiz/HI [^]		# qolgan so‘zlarda
-SFX B 0 lari/HI [^]		# qolgan so‘zlarda
+SFX B 0 im/HI .		# qolgan so‘zlarda
+SFX B 0 ing/HI .		# qolgan so‘zlarda
+SFX B 0 i/HI .		# qolgan so‘zlarda
+SFX B 0 imiz/HI .		# qolgan so‘zlarda
+SFX B 0 ingiz/HI .		# qolgan so‘zlarda
+SFX B 0 lari/HI .		# qolgan so‘zlarda
 
 SFX C Y 6
 SFX C 0 m/HI .		# unli harf bilan tugagan so‘zlarda (olmam, akang)
@@ -2042,111 +2042,111 @@ SFX H 0 yam?-chi .
 
 # Savol va ta’kid qo‘shimchalari
 SFX I Y 105
-SFX I 0 man [^]
-SFX I 0 san [^]
-SFX I 0 miz [^]
-SFX I 0 siz [^]
-SFX I 0 lar [^]
-SFX I 0 sizlar [^]
-SFX I 0 masman [^]
-SFX I 0 massan [^]
-SFX I 0 mas [^]
-SFX I 0 masmiz [^]
-SFX I 0 massiz [^]
-SFX I 0 maslar [^]
-SFX I 0 massizlar [^]
-SFX I 0 manmi [^]
-SFX I 0 misan [^]
-SFX I 0 mi [^]
-SFX I 0 mizmi [^]
-SFX I 0 misiz [^]
-SFX I 0 milar [^]
-SFX I 0 misizlar [^]
-SFX I 0 masmanmi [^]
-SFX I 0 masmisan [^]
-SFX I 0 masmi [^]
-SFX I 0 masmizmi [^]
-SFX I 0 masmisiz [^]
-SFX I 0 masmilar [^]
-SFX I 0 masmisizlar [^]
-SFX I 0 manku [^]
-SFX I 0 sanku [^]
-SFX I 0 ku [^]
-SFX I 0 mizku [^]
-SFX I 0 sizku [^]
-SFX I 0 larku [^]
-SFX I 0 sizlarku [^]
-SFX I 0 masmanku [^]
-SFX I 0 massanku [^]
-SFX I 0 masku [^]
-SFX I 0 masmizku [^]
-SFX I 0 massizku [^]
-SFX I 0 maslarku [^]
-SFX I 0 massizlarku [^]
-SFX I 0 mikanman [^]
-SFX I 0 mikansan [^]
-SFX I 0 mikan [^]
-SFX I 0 mikanmiz [^]
-SFX I 0 mikansiz [^]
-SFX I 0 mikanmilar [^]
-SFX I 0 mikanmisizlar [^]
-SFX I 0 dirman [^]
-SFX I 0 dirsan [^]
-SFX I 0 dir [^]
-SFX I 0 dirmiz [^]
-SFX I 0 dirsiz [^]
-SFX I 0 dirlar [^]
-SFX I 0 dirsizlar [^]
-SFX I 0 masdirman [^]
-SFX I 0 masdirsan [^]
-SFX I 0 masdir [^]
-SFX I 0 masdirmiz [^]
-SFX I 0 masdirsiz [^]
-SFX I 0 masdirlar [^]
-SFX I 0 masdirsizlar [^]
-SFX I 0 dirmanda [^]
-SFX I 0 dirsanda [^]
-SFX I 0 dirda [^]
-SFX I 0 dirmizda [^]
-SFX I 0 dirsizda [^]
-SFX I 0 dirlarda [^]
-SFX I 0 dirsizlarda [^]
-SFX I 0 masdirmanda [^]
-SFX I 0 masdirsanda [^]
-SFX I 0 masdirda [^]
-SFX I 0 masdirmizda [^]
-SFX I 0 masdirsizda [^]
-SFX I 0 masdirlarda [^]
-SFX I 0 masdirsizlarda [^]
-SFX I 0 midim [^]
-SFX I 0 miding [^]
-SFX I 0 midi [^]
-SFX I 0 midik [^]
-SFX I 0 midingiz [^]
-SFX I 0 midilar [^]
-SFX I 0 midingizlar [^]
-SFX I 0 masmidim [^]
-SFX I 0 masmiding [^]
-SFX I 0 masmidi [^]
-SFX I 0 masmidik [^]
-SFX I 0 masmidingiz [^]
-SFX I 0 masmidilar [^]
-SFX I 0 masmidingizlar [^]
-SFX I 0 manda [^]
-SFX I 0 sanda [^]
-SFX I 0 da [^]
-SFX I 0 mizda [^]
-SFX I 0 sizda [^]
-SFX I 0 larda [^]
-SFX I 0 sizlarda [^]
-SFX I 0 masmanda [^]
-SFX I 0 massanda [^]
-SFX I 0 masda [^]
-SFX I 0 masmizda [^]
-SFX I 0 massizda [^]
-SFX I 0 maslarda [^]
-SFX I 0 massizlarda [^]
-SFX I 0 -chi [^]
+SFX I 0 man .
+SFX I 0 san .
+SFX I 0 miz .
+SFX I 0 siz .
+SFX I 0 lar .
+SFX I 0 sizlar .
+SFX I 0 masman .
+SFX I 0 massan .
+SFX I 0 mas .
+SFX I 0 masmiz .
+SFX I 0 massiz .
+SFX I 0 maslar .
+SFX I 0 massizlar .
+SFX I 0 manmi .
+SFX I 0 misan .
+SFX I 0 mi .
+SFX I 0 mizmi .
+SFX I 0 misiz .
+SFX I 0 milar .
+SFX I 0 misizlar .
+SFX I 0 masmanmi .
+SFX I 0 masmisan .
+SFX I 0 masmi .
+SFX I 0 masmizmi .
+SFX I 0 masmisiz .
+SFX I 0 masmilar .
+SFX I 0 masmisizlar .
+SFX I 0 manku .
+SFX I 0 sanku .
+SFX I 0 ku .
+SFX I 0 mizku .
+SFX I 0 sizku .
+SFX I 0 larku .
+SFX I 0 sizlarku .
+SFX I 0 masmanku .
+SFX I 0 massanku .
+SFX I 0 masku .
+SFX I 0 masmizku .
+SFX I 0 massizku .
+SFX I 0 maslarku .
+SFX I 0 massizlarku .
+SFX I 0 mikanman .
+SFX I 0 mikansan .
+SFX I 0 mikan .
+SFX I 0 mikanmiz .
+SFX I 0 mikansiz .
+SFX I 0 mikanmilar .
+SFX I 0 mikanmisizlar .
+SFX I 0 dirman .
+SFX I 0 dirsan .
+SFX I 0 dir .
+SFX I 0 dirmiz .
+SFX I 0 dirsiz .
+SFX I 0 dirlar .
+SFX I 0 dirsizlar .
+SFX I 0 masdirman .
+SFX I 0 masdirsan .
+SFX I 0 masdir .
+SFX I 0 masdirmiz .
+SFX I 0 masdirsiz .
+SFX I 0 masdirlar .
+SFX I 0 masdirsizlar .
+SFX I 0 dirmanda .
+SFX I 0 dirsanda .
+SFX I 0 dirda .
+SFX I 0 dirmizda .
+SFX I 0 dirsizda .
+SFX I 0 dirlarda .
+SFX I 0 dirsizlarda .
+SFX I 0 masdirmanda .
+SFX I 0 masdirsanda .
+SFX I 0 masdirda .
+SFX I 0 masdirmizda .
+SFX I 0 masdirsizda .
+SFX I 0 masdirlarda .
+SFX I 0 masdirsizlarda .
+SFX I 0 midim .
+SFX I 0 miding .
+SFX I 0 midi .
+SFX I 0 midik .
+SFX I 0 midingiz .
+SFX I 0 midilar .
+SFX I 0 midingizlar .
+SFX I 0 masmidim .
+SFX I 0 masmiding .
+SFX I 0 masmidi .
+SFX I 0 masmidik .
+SFX I 0 masmidingiz .
+SFX I 0 masmidilar .
+SFX I 0 masmidingizlar .
+SFX I 0 manda .
+SFX I 0 sanda .
+SFX I 0 da .
+SFX I 0 mizda .
+SFX I 0 sizda .
+SFX I 0 larda .
+SFX I 0 sizlarda .
+SFX I 0 masmanda .
+SFX I 0 massanda .
+SFX I 0 masda .
+SFX I 0 masmizda .
+SFX I 0 massizda .
+SFX I 0 maslarda .
+SFX I 0 massizlarda .
+SFX I 0 -chi .
 
 
 
