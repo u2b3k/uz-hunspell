@@ -1,0 +1,132 @@
+# ===========================================================================
+# Qo'shimchalar ro'yxati
+# 1 -	ustunda so'z qaysi harflar bilan tugashi pattern bilan beriladi
+# 2 -	ustunda so'z oxiridan qirqib, tashlab yuboriladigan harflar birikmasi
+# 3 -	ustunda so'zga qo'shiladigan qo'shimcha va undan keyin kelishi mumkin
+#		bo'lgan qo'shimchalarga havola
+# 4 -	ustunda morfologik ma'lumot
+# ===========================================================================
+
+SFX KO'PLIK
+
+. 					0		лар/EGALIK/KELISHIK/SAVOL	
+
+# ===========================================================================
+
+SFX EGALIK
+
+[аеёиоуўэюя]		0		м/KELISHIK/SAVOL						I 
+^о[к]				к		гим/KELISHIK/SAVOL						I 
+ок					0		им/KELISHIK/SAVOL						I 
+[қ]					қ		ғим/KELISHIK/SAVOL						I 
+[^аеёиоуўэюякқ]		0		им/KELISHIK/SAVOL						I 
+
+[аеёиоуўэюя]		0		миз/KELISHIK/SAVOL						I-K
+^о[к]				к		гимиз/KELISHIK/SAVOL					I-K 
+ок					0		имиз/KELISHIK/SAVOL						I-K 
+[қ]					қ		ғимиз/KELISHIK/SAVOL					I-K
+[^аеёиоуўэюякқ]		0		имиз/KELISHIK/SAVOL						I-K
+
+[аеёиоуўэюя]		0		нг/KELISHIK/SAVOL						II 
+^о[к]				к		гинг/KELISHIK/SAVOL						II 
+ок					0		инг/KELISHIK/SAVOL						II 
+[қ]					қ		ғинг/KELISHIK/SAVOL						II 
+[^аеёиоуўэюякқ]		0		инг/KELISHIK/SAVOL						II 
+
+[аеёиоуўэюя]		0		нгиз/KELISHIK/SAVOL						II-K
+^о[к]				к		гингиз/KELISHIK/SAVOL					II-K
+ок					0		ингиз/KELISHIK/SAVOL					II-K
+[қ]					қ		ғингиз/KELISHIK/SAVOL					II-K 
+[^аеёиоуўэюякқ]		0		ингиз/KELISHIK/SAVOL					II-K
+
+[аеёиоуўэюя]		0		си/KELISHIK/SAVOL						III 
+^о[к]				к		ги/KELISHIK/SAVOL						III 
+ок					0		и/KELISHIK/SAVOL						III 
+[қ]					қ		ғи/KELISHIK/SAVOL						III 
+[^аеёиоуўэюякқ]		0		и/KELISHIK/SAVOL						III 
+
+# ===========================================================================
+
+SFX KELISHIK
+
+[^ғк]				0		га/SAVOL								J
+ғ					ғ 		ққа/SAVOL								J			га
+к 					0		ка/SAVOL								J			га
+.					0		нинг/SAVOL								Q
+.					0		ни/SAVOL								T
+.					0		дан/SAVOL								CH
+.					0		да/SAVOL								O'
+
+# ===========================================================================
+	
+SFX SAVOL
+
+.					0		ми 										MI?
+.					0		дир										DIR?
+.					0		да										DA!
+
+# ===========================================================================
+
+SFX KICH
+
+.					0		ча/KO'PLIK/EGALIK/KELISHIK/SAVOL		CHA
+.					0		симон/KO'PLIK/EGALIK/KELISHIK/SAVOL		SIMON
+
+# ===========================================================================
+
+SFX SHAXS
+
+.					0		ман/SAVOL 								I-H
+.					0		миз/SAVOL 								I-K-H
+.					0		сан/SAVOL 								II-H
+.					0		сиз/SAVOL 								II-K-H
+.					0		ди/SAVOL 								III-H
+.					0		дилар/SAVOL 							III-K-H
+
+# ===========================================================================
+
+SFX FE'L
+
+[аеёиоуўэ]моқ		моқ		й/SHAXS									KZ
+[^аеёиоуўэ]моқ		моқ		а/SHAXS									KZ
+.					моқ		май/SHAXS								KZ-INK
+.					моқ		ган/KO'PLIK/SHAXS/EGALIK/KELISHIK/SAVOL			O'Z
+.					моқ		маган/SHAXS/EGALIK/KELISHIK/SAVOL		O'Z-INK
+[аеёиоуўэ]моқ		моқ		ш/EGALIK/KELISHIK						KZ
+[^аеёиоуўэ]моқ		моқ		иш/EGALIK/KELISHIK						KZ
+.					моқ		мас/KELISHIK							KZ
+.					моқ		маслик/EGALIK/KELISHIK					KZ
+
+# ===========================================================================
+# Qisqartma aliaslar
+# ===========================================================================
+AF OT
+KICH/KO'PLIK/EGALIK/KELISHIK/SAVOL
+
+
+
+# ===========================================================================
+# So'zlar ro'yxati
+# ===========================================================================
+WORDS
+олма/OT
+боғ/OT
+қулоқ/OT
+калтак/OT
+одам/OT
+олам/OT
+хоким/OT
+хок/OT
+ухламоқ/FE'L
+қилмоқ/FE'L
+билмоқ/FE'L
+гапирмоқ/FE'L
+юрмоқ/FE'L
+турмоқ/FE'L
+сўзламоқ/FE'L
+бўлмоқ/FE'L
+қолмоқ/FE'L
+олмоқ/FE'L
+дастурламоқ/FE'L
+келмоқ/FE'L
+бормоқ/FE'L
