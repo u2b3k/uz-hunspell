@@ -11,7 +11,7 @@ MAXNGRAMSUGS 6
 MAXDIFF 10
 NOSUGGEST я
 NOSPLITSUGS =
-REP 31
+REP 35
 REP o' oʻ
 REP O' Oʻ
 REP g' gʻ
@@ -23,6 +23,8 @@ REP x h
 REP h x
 REP o oʻ
 REP O Oʻ
+REP oʻ o
+REP Oʻ O
 REP u oʻ
 REP U Oʻ
 REP oʻ u
@@ -44,6 +46,7 @@ REP a e
 REP e ay
 REP ug oʻgʻ
 REP ux oʻh
+REP x ks
 BREAK 1
 BREAK -
 FORCEUCASE я
