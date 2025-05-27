@@ -6,3 +6,9 @@ Lugʻatda oʻzbek tilidagi 90 000 dan oshiq soʻz va OT, SIFAT, FE'L soʻz turku
 Imlo xatolarini tekshirish uchun dastur: https://play.google.com/store/apps/details?id=com.u2b3k.lotinkirill
 
 Imlo lugʻati: http://play.google.com/store/apps/details?id=com.u2b3k.imlo
+
+Linux tizimida oʻrnatish usuli:
+
+```bash
+sudo bash ./install.sh
+```
