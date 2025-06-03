@@ -6,7 +6,7 @@ SET UTF-8
 #
 TRY - abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZʻʼ
 KEY qwertyuiop|asdfghjkl|zxcvbnm
-WORDCHARS -.'ʻʼ
+WORDCHARS -.'ʻʼ‘’
 MAXNGRAMSUGS 6
 MAXDIFF 10
 NOSUGGEST я
