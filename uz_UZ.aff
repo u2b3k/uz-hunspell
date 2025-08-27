@@ -2,36 +2,51 @@ LANG uz_UZ
 SET UTF-8
 #
 # (c) 2019, Alisher 'U2B3K' Jalolov
+# (c) 2025, Bilolbek 'itsbilolbek' Normoʻminov
 #
-TRY - abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+TRY - abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZʻʼ
 KEY qwertyuiop|asdfghjkl|zxcvbnm
-WORDCHARS -.'
+WORDCHARS -.'ʻʼ‘’
 MAXNGRAMSUGS 6
 MAXDIFF 10
 NOSUGGEST я
 NOSPLITSUGS =
-REP 21
+REP 35
+REP o' oʻ
+REP O' Oʻ
+REP g' gʻ
+REP G' Gʻ
+REP ' ʼ
 REP ts s
 REP s ts
 REP x h
 REP h x
-REP u o'
-REP o' u
-REP g g'
-REP g' g
+REP o oʻ
+REP O Oʻ
+REP oʻ o
+REP Oʻ O
+REP u oʻ
+REP U Oʻ
+REP oʻ u
+REP Oʻ U
+REP g gʻ
+REP G Gʻ
+REP gʻ g
+REP Gʻ G
 REP iz ingiz
 REP in ing
 REP led layd
 REP w sh
 REP 4 ch
-REP 6 o'
+REP 6 oʻ
 REP i e
 REP e i
 REP s z
 REP a e
 REP e ay
-REP ug o'g'
-REP ux o'h
+REP ug oʻgʻ
+REP ux oʻh
+REP x ks
 BREAK 1
 BREAK -
 FORCEUCASE я
@@ -1420,18 +1435,18 @@ SFX C 0 sigacha/IJKLMP .
 SFX C 0 larigacha/IJKLMP .
 
 SFX D Y 151
-SFX D q g'im/IJKLM .
-SFX D q g'imni/IJKLM .
-SFX D q g'imning/IJKLM .
-SFX D q g'imga/IJKLM .
-SFX D q g'imdan/IJKLM .
-SFX D q g'imda/IJKLM .
-SFX D q g'imiz/IJKLM .
-SFX D q g'imizni/IJKLM .
-SFX D q g'imizning/IJKLM .
-SFX D q g'imizga/IJKLM .
-SFX D q g'imizdan/IJKLM .
-SFX D q g'imizda/IJKLM .
+SFX D q gʻim/IJKLM .
+SFX D q gʻimni/IJKLM .
+SFX D q gʻimning/IJKLM .
+SFX D q gʻimga/IJKLM .
+SFX D q gʻimdan/IJKLM .
+SFX D q gʻimda/IJKLM .
+SFX D q gʻimiz/IJKLM .
+SFX D q gʻimizni/IJKLM .
+SFX D q gʻimizning/IJKLM .
+SFX D q gʻimizga/IJKLM .
+SFX D q gʻimizdan/IJKLM .
+SFX D q gʻimizda/IJKLM .
 SFX D q qlarim/IJKLM .
 SFX D q qlarimni/IJKLM .
 SFX D q qlarimning/IJKLM .
@@ -1444,18 +1459,18 @@ SFX D q qlarimizning/IJKLM .
 SFX D q qlarimizga/IJKLM .
 SFX D q qlarimizdan/IJKLM .
 SFX D q qlarimizda/IJKLM .
-SFX D q g'ing/IJKLM .
-SFX D q g'ingni/IJKLM .
-SFX D q g'ingning/IJKLM .
-SFX D q g'ingga/IJKLM .
-SFX D q g'ingdan/IJKLM .
-SFX D q g'ingda/IJKLM .
-SFX D q g'ingiz/IJKLM .
-SFX D q g'ingizni/IJKLM .
-SFX D q g'ingizning/IJKLM .
-SFX D q g'ingizga/IJKLM .
-SFX D q g'ingizdan/IJKLM .
-SFX D q g'ingizda/IJKLM .
+SFX D q gʻing/IJKLM .
+SFX D q gʻingni/IJKLM .
+SFX D q gʻingning/IJKLM .
+SFX D q gʻingga/IJKLM .
+SFX D q gʻingdan/IJKLM .
+SFX D q gʻingda/IJKLM .
+SFX D q gʻingiz/IJKLM .
+SFX D q gʻingizni/IJKLM .
+SFX D q gʻingizning/IJKLM .
+SFX D q gʻingizga/IJKLM .
+SFX D q gʻingizdan/IJKLM .
+SFX D q gʻingizda/IJKLM .
 SFX D q qlaring/IJKLM .
 SFX D q qlaringni/IJKLM .
 SFX D q qlaringning/IJKLM .
@@ -1468,57 +1483,57 @@ SFX D q qlaringizning/IJKLM .
 SFX D q qlaringizga/IJKLM .
 SFX D q qlaringizdan/IJKLM .
 SFX D q qlaringizda/IJKLM .
-SFX D q g'i/IJKLM .
-SFX D q g'ini/IJKLM .
-SFX D q g'ining/IJKLM .
-SFX D q g'iga/IJKLM .
-SFX D q g'idan/IJKLM .
-SFX D q g'ida/IJKLM .
+SFX D q gʻi/IJKLM .
+SFX D q gʻini/IJKLM .
+SFX D q gʻining/IJKLM .
+SFX D q gʻiga/IJKLM .
+SFX D q gʻidan/IJKLM .
+SFX D q gʻida/IJKLM .
 SFX D q qlari/IJKLM .
 SFX D q qlarini/IJKLM .
 SFX D q qlarining/IJKLM .
 SFX D q qlariga/IJKLM .
 SFX D q qlaridan/IJKLM .
 SFX D q qlarida/IJKLM .
-SFX D q g'imdek .
-SFX D q g'imday .
-SFX D q g'imizdek .
-SFX D q g'imizday .
+SFX D q gʻimdek .
+SFX D q gʻimday .
+SFX D q gʻimizdek .
+SFX D q gʻimizday .
 SFX D q qlarimdek .
 SFX D q qlarimday .
 SFX D q qlarimizdek .
 SFX D q qlarimizday .
-SFX D q g'ingdek .
-SFX D q g'ingday .
-SFX D q g'ingizdek .
-SFX D q g'ingizday .
+SFX D q gʻingdek .
+SFX D q gʻingday .
+SFX D q gʻingizdek .
+SFX D q gʻingizday .
 SFX D q qlaringdek .
 SFX D q qlaringday .
 SFX D q qlaringizdek .
 SFX D q qlaringizday .
-SFX D q g'idek .
-SFX D q g'iday .
+SFX D q gʻidek .
+SFX D q gʻiday .
 SFX D q qlaridek .
 SFX D q qlariday .
-SFX D q g'imcha .
-SFX D q g'imizcha .
+SFX D q gʻimcha .
+SFX D q gʻimizcha .
 SFX D q qlarimcha .
 SFX D q qlarimizcha .
-SFX D q g'ingcha .
-SFX D q g'ingizcha .
+SFX D q gʻingcha .
+SFX D q gʻingizcha .
 SFX D q qlaringcha .
 SFX D q qlaringizcha .
-SFX D q g'icha .
+SFX D q gʻicha .
 SFX D q qlaricha .
-SFX D q g'in .
-SFX D q g'imdagi/IJKLMN .
-SFX D q g'imdagilar/IJKLMN .
-SFX D q g'imdagidek/IJKLMN .
-SFX D q g'imdagiday/IJKLMN .
-SFX D q g'imizdagi/IJKLMN .
-SFX D q g'imizdagilar/IJKLMN .
-SFX D q g'imizdagidek/IJKLMN .
-SFX D q g'imizdagiday/IJKLMN .
+SFX D q gʻin .
+SFX D q gʻimdagi/IJKLMN .
+SFX D q gʻimdagilar/IJKLMN .
+SFX D q gʻimdagidek/IJKLMN .
+SFX D q gʻimdagiday/IJKLMN .
+SFX D q gʻimizdagi/IJKLMN .
+SFX D q gʻimizdagilar/IJKLMN .
+SFX D q gʻimizdagidek/IJKLMN .
+SFX D q gʻimizdagiday/IJKLMN .
 SFX D q qlarimdagi/IJKLMN .
 SFX D q qlarimdagilar/IJKLMN .
 SFX D q qlarimdagidek/IJKLMN .
@@ -1527,14 +1542,14 @@ SFX D q qlarimizdagi/IJKLMN .
 SFX D q qlarimizdagilar/IJKLMN .
 SFX D q qlarimizdagidek/IJKLMN .
 SFX D q qlarimizdagiday/IJKLMN .
-SFX D q g'ingdagi/IJKLMN .
-SFX D q g'ingdagilar/IJKLMN .
-SFX D q g'ingdagidek/IJKLMN .
-SFX D q g'ingdagiday/IJKLMN .
-SFX D q g'ingizdagi/IJKLMN .
-SFX D q g'ingizdagilar/IJKLMN .
-SFX D q g'ingizdagidek/IJKLMN .
-SFX D q g'ingizdagiday/IJKLMN .
+SFX D q gʻingdagi/IJKLMN .
+SFX D q gʻingdagilar/IJKLMN .
+SFX D q gʻingdagidek/IJKLMN .
+SFX D q gʻingdagiday/IJKLMN .
+SFX D q gʻingizdagi/IJKLMN .
+SFX D q gʻingizdagilar/IJKLMN .
+SFX D q gʻingizdagidek/IJKLMN .
+SFX D q gʻingizdagiday/IJKLMN .
 SFX D q qlaringdagi/IJKLMN .
 SFX D q qlaringdagilar/IJKLMN .
 SFX D q qlaringdagidek/IJKLMN .
@@ -1543,33 +1558,33 @@ SFX D q qlaringizdagi/IJKLMN .
 SFX D q qlaringizdagilar/IJKLMN .
 SFX D q qlaringizdagidek/IJKLMN .
 SFX D q qlaringizdagiday/IJKLMN .
-SFX D q g'idagi/IJKLMN .
-SFX D q g'idagilar/IJKLMN .
-SFX D q g'idagidek/IJKLMN .
-SFX D q g'idagiday/IJKLMN .
+SFX D q gʻidagi/IJKLMN .
+SFX D q gʻidagilar/IJKLMN .
+SFX D q gʻidagidek/IJKLMN .
+SFX D q gʻidagiday/IJKLMN .
 SFX D q qlaridagi/IJKLMN .
 SFX D q qlaridagilar/IJKLMN .
 SFX D q qlaridagidek/IJKLMN .
 SFX D q qlaridagiday/IJKLMN .
-SFX D q g'imniki/IJKLMO .
-SFX D q g'imizniki/IJKLMO .
+SFX D q gʻimniki/IJKLMO .
+SFX D q gʻimizniki/IJKLMO .
 SFX D q qlarimniki/IJKLMO .
 SFX D q qlarimizniki/IJKLMO .
-SFX D q g'ingniki/IJKLMO .
-SFX D q g'ingizniki/IJKLMO .
+SFX D q gʻingniki/IJKLMO .
+SFX D q gʻingizniki/IJKLMO .
 SFX D q qlaringniki/IJKLMO .
 SFX D q qlaringizniki/IJKLMO .
-SFX D q g'iniki/IJKLMO .
+SFX D q gʻiniki/IJKLMO .
 SFX D q qlariniki/IJKLMO .
-SFX D q g'imgacha/IJKLMP .
-SFX D q g'imizgacha/IJKLMP .
+SFX D q gʻimgacha/IJKLMP .
+SFX D q gʻimizgacha/IJKLMP .
 SFX D q qlarimgacha/IJKLMP .
 SFX D q qlarimizgacha/IJKLMP .
-SFX D q g'inggacha/IJKLMP .
-SFX D q g'ingizgacha/IJKLMP .
+SFX D q gʻinggacha/IJKLMP .
+SFX D q gʻingizgacha/IJKLMP .
 SFX D q qlaringgacha/IJKLMP .
 SFX D q qlaringizgacha/IJKLMP .
-SFX D q g'igacha/IJKLMP .
+SFX D q gʻigacha/IJKLMP .
 SFX D q qlarigacha/IJKLMP .
 
 SFX E Y 151
@@ -3548,7 +3563,7 @@ SFX I 0 masliklaridir-da .
 SFX I 0 masliklarimikan .
 SFX I 0 masliklari-yu .
 SFX I 0 masliklariyam .
-SFX I q g'u q
+SFX I q gʻu q
 SFX I k gu k
 SFX I 0 -u [^aeiou]
 SFX I 0 -yu [aeiou]
@@ -4914,8 +4929,8 @@ SFX T Y 6
 SFX T 0 xon/ABVSR .
 SFX T 0 bek/ABVSR .
 SFX T 0 jon/ABVSR .
-SFX T 0 xo'ja/ABVSR .
-SFX T 0 to'ra/ABVSR .
+SFX T 0 xoʻja/ABVSR .
+SFX T 0 toʻra/ABVSR .
 SFX T 0 boy/ABVSR .
 
 SFX U Y 2
@@ -4927,9 +4942,9 @@ SFX V 0 dan/IJKLMQ .
 SFX V 0 da/IJKLMQ .
 SFX V 0 ni/IJKLMQ .
 SFX V 0 ning/IJKLMQ .
-SFX V 0 ga/IJKLMQ [^kq']
+SFX V 0 ga/IJKLMQ [^kq]
 SFX V 0 ka/IJKLMQ k
-SFX V g' g'ga/IJKLMQ g'
+SFX V gʻ gʻga/IJKLMQ gʻ
 SFX V q qqa/IJKLMQ q
 SFX V 0 dagi/N .
 SFX V 0 dagi/IJKLMQ .
@@ -15314,102 +15329,102 @@ SFX X g gmaganlikning/h g
 SFX X g gmaganlikga/h g
 SFX X g gmaganlikdan/h g
 SFX X g gmaganlikda/h g
-SFX X g' qqan/e g'
-SFX X g' g'magan/e g'
-SFX X g' qqanmanmi g'
-SFX X g' qqanmanmiki g'
-SFX X g' qqanmizmi g'
-SFX X g' qqanmizmiki g'
-SFX X g' g'maganmanmi g'
-SFX X g' g'maganmanmiki g'
-SFX X g' g'maganmizmi g'
-SFX X g' g'maganmizmiki g'
-SFX X g' qqanmi/f g'
-SFX X g' g'maganmi/f g'
-SFX X g' qqandir/g g'
-SFX X g' g'magandir/g g'
-SFX X g' qqanmikan/h g'
-SFX X g' g'maganmikan/h g'
-SFX X g' qqan/h g'
-SFX X g' qqanni/h g'
-SFX X g' qqanning/h g'
-SFX X g' qqanga/h g'
-SFX X g' qqandan/h g'
-SFX X g' qqanda/h g'
-SFX X g' qqanlik/h g'
-SFX X g' qqanlikni/h g'
-SFX X g' qqanlikning/h g'
-SFX X g' qqanlikga/h g'
-SFX X g' qqanlikdan/h g'
-SFX X g' qqanlikda/h g'
-SFX X g' g'magan/h g'
-SFX X g' g'maganni/h g'
-SFX X g' g'maganning/h g'
-SFX X g' g'maganga/h g'
-SFX X g' g'magandan/h g'
-SFX X g' g'maganda/h g'
-SFX X g' g'maganlik/h g'
-SFX X g' g'maganlikni/h g'
-SFX X g' g'maganlikning/h g'
-SFX X g' g'maganlikga/h g'
-SFX X g' g'maganlikdan/h g'
-SFX X g' g'maganlikda/h g'
-SFX X 0 gan/e [^kgqg']
-SFX X 0 magan/e [^kgqg']
-SFX X 0 ganmanmi [^kgqg']
-SFX X 0 ganmanmiki [^kgqg']
-SFX X 0 ganmizmi [^kgqg']
-SFX X 0 ganmizmiki [^kgqg']
-SFX X 0 gandekmanmi [^kgqg']
-SFX X 0 gandekmanmiki [^kgqg']
-SFX X 0 gandekmizmi [^kgqg']
-SFX X 0 gandekmizmiki [^kgqg']
-SFX X 0 gandaymanmi [^kgqg']
-SFX X 0 gandaymanmiki [^kgqg']
-SFX X 0 gandaymizmi [^kgqg']
-SFX X 0 gandaymizmiki [^kgqg']
-SFX X 0 maganmanmi [^kgqg']
-SFX X 0 maganmanmiki [^kgqg']
-SFX X 0 maganmizmi [^kgqg']
-SFX X 0 maganmizmiki [^kgqg']
-SFX X 0 magandekmanmi [^kgqg']
-SFX X 0 magandekmanmiki [^kgqg']
-SFX X 0 magandekmizmi [^kgqg']
-SFX X 0 magandekmizmiki [^kgqg']
-SFX X 0 magandaymanmi [^kgqg']
-SFX X 0 magandaymanmiki [^kgqg']
-SFX X 0 magandaymizmi [^kgqg']
-SFX X 0 magandaymizmiki [^kgqg']
-SFX X 0 ganmi/f [^kgqg']
-SFX X 0 maganmi/f [^kgqg']
-SFX X 0 gandir/g [^kgqg']
-SFX X 0 magandir/g [^kgqg']
-SFX X 0 ganmikan/h [^kgqg']
-SFX X 0 maganmikan/h [^kgqg']
-SFX X 0 gan/h [^kgqg']
-SFX X 0 ganni/h [^kgqg']
-SFX X 0 ganning/h [^kgqg']
-SFX X 0 ganga/h [^kgqg']
-SFX X 0 gandan/h [^kgqg']
-SFX X 0 ganda/h [^kgqg']
-SFX X 0 ganlik/h [^kgqg']
-SFX X 0 ganlikni/h [^kgqg']
-SFX X 0 ganlikning/h [^kgqg']
-SFX X 0 ganlikga/h [^kgqg']
-SFX X 0 ganlikdan/h [^kgqg']
-SFX X 0 ganlikda/h [^kgqg']
-SFX X 0 magan/h [^kgqg']
-SFX X 0 maganni/h [^kgqg']
-SFX X 0 maganning/h [^kgqg']
-SFX X 0 maganga/h [^kgqg']
-SFX X 0 magandan/h [^kgqg']
-SFX X 0 maganda/h [^kgqg']
-SFX X 0 maganlik/h [^kgqg']
-SFX X 0 maganlikni/h [^kgqg']
-SFX X 0 maganlikning/h [^kgqg']
-SFX X 0 maganlikga/h [^kgqg']
-SFX X 0 maganlikdan/h [^kgqg']
-SFX X 0 maganlikda/h [^kgqg']
+SFX X gʻ qqan/e gʻ
+SFX X gʻ gʻmagan/e gʻ
+SFX X gʻ qqanmanmi gʻ
+SFX X gʻ qqanmanmiki gʻ
+SFX X gʻ qqanmizmi gʻ
+SFX X gʻ qqanmizmiki gʻ
+SFX X gʻ gʻmaganmanmi gʻ
+SFX X gʻ gʻmaganmanmiki gʻ
+SFX X gʻ gʻmaganmizmi gʻ
+SFX X gʻ gʻmaganmizmiki gʻ
+SFX X gʻ qqanmi/f gʻ
+SFX X gʻ gʻmaganmi/f gʻ
+SFX X gʻ qqandir/g gʻ
+SFX X gʻ gʻmagandir/g gʻ
+SFX X gʻ qqanmikan/h gʻ
+SFX X gʻ gʻmaganmikan/h gʻ
+SFX X gʻ qqan/h gʻ
+SFX X gʻ qqanni/h gʻ
+SFX X gʻ qqanning/h gʻ
+SFX X gʻ qqanga/h gʻ
+SFX X gʻ qqandan/h gʻ
+SFX X gʻ qqanda/h gʻ
+SFX X gʻ qqanlik/h gʻ
+SFX X gʻ qqanlikni/h gʻ
+SFX X gʻ qqanlikning/h gʻ
+SFX X gʻ qqanlikga/h gʻ
+SFX X gʻ qqanlikdan/h gʻ
+SFX X gʻ qqanlikda/h gʻ
+SFX X gʻ gʻmagan/h gʻ
+SFX X gʻ gʻmaganni/h gʻ
+SFX X gʻ gʻmaganning/h gʻ
+SFX X gʻ gʻmaganga/h gʻ
+SFX X gʻ gʻmagandan/h gʻ
+SFX X gʻ gʻmaganda/h gʻ
+SFX X gʻ gʻmaganlik/h gʻ
+SFX X gʻ gʻmaganlikni/h gʻ
+SFX X gʻ gʻmaganlikning/h gʻ
+SFX X gʻ gʻmaganlikga/h gʻ
+SFX X gʻ gʻmaganlikdan/h gʻ
+SFX X gʻ gʻmaganlikda/h gʻ
+SFX X 0 gan/e [^kgqgʻ]
+SFX X 0 magan/e [^kgqgʻ]
+SFX X 0 ganmanmi [^kgqgʻ]
+SFX X 0 ganmanmiki [^kgqgʻ]
+SFX X 0 ganmizmi [^kgqgʻ]
+SFX X 0 ganmizmiki [^kgqgʻ]
+SFX X 0 gandekmanmi [^kgqgʻ]
+SFX X 0 gandekmanmiki [^kgqgʻ]
+SFX X 0 gandekmizmi [^kgqgʻ]
+SFX X 0 gandekmizmiki [^kgqgʻ]
+SFX X 0 gandaymanmi [^kgqgʻ]
+SFX X 0 gandaymanmiki [^kgqgʻ]
+SFX X 0 gandaymizmi [^kgqgʻ]
+SFX X 0 gandaymizmiki [^kgqgʻ]
+SFX X 0 maganmanmi [^kgqgʻ]
+SFX X 0 maganmanmiki [^kgqgʻ]
+SFX X 0 maganmizmi [^kgqgʻ]
+SFX X 0 maganmizmiki [^kgqgʻ]
+SFX X 0 magandekmanmi [^kgqgʻ]
+SFX X 0 magandekmanmiki [^kgqgʻ]
+SFX X 0 magandekmizmi [^kgqgʻ]
+SFX X 0 magandekmizmiki [^kgqgʻ]
+SFX X 0 magandaymanmi [^kgqgʻ]
+SFX X 0 magandaymanmiki [^kgqgʻ]
+SFX X 0 magandaymizmi [^kgqgʻ]
+SFX X 0 magandaymizmiki [^kgqgʻ]
+SFX X 0 ganmi/f [^kgqgʻ]
+SFX X 0 maganmi/f [^kgqgʻ]
+SFX X 0 gandir/g [^kgqgʻ]
+SFX X 0 magandir/g [^kgqgʻ]
+SFX X 0 ganmikan/h [^kgqgʻ]
+SFX X 0 maganmikan/h [^kgqgʻ]
+SFX X 0 gan/h [^kgqgʻ]
+SFX X 0 ganni/h [^kgqgʻ]
+SFX X 0 ganning/h [^kgqgʻ]
+SFX X 0 ganga/h [^kgqgʻ]
+SFX X 0 gandan/h [^kgqgʻ]
+SFX X 0 ganda/h [^kgqgʻ]
+SFX X 0 ganlik/h [^kgqgʻ]
+SFX X 0 ganlikni/h [^kgqgʻ]
+SFX X 0 ganlikning/h [^kgqgʻ]
+SFX X 0 ganlikga/h [^kgqgʻ]
+SFX X 0 ganlikdan/h [^kgqgʻ]
+SFX X 0 ganlikda/h [^kgqgʻ]
+SFX X 0 magan/h [^kgqgʻ]
+SFX X 0 maganni/h [^kgqgʻ]
+SFX X 0 maganning/h [^kgqgʻ]
+SFX X 0 maganga/h [^kgqgʻ]
+SFX X 0 magandan/h [^kgqgʻ]
+SFX X 0 maganda/h [^kgqgʻ]
+SFX X 0 maganlik/h [^kgqgʻ]
+SFX X 0 maganlikni/h [^kgqgʻ]
+SFX X 0 maganlikning/h [^kgqgʻ]
+SFX X 0 maganlikga/h [^kgqgʻ]
+SFX X 0 maganlikdan/h [^kgqgʻ]
+SFX X 0 maganlikda/h [^kgqgʻ]
 SFX X g gkan g
 SFX X g gkanmi g
 SFX X g gkandir g
