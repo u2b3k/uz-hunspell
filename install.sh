@@ -12,16 +12,20 @@ case "$OS" in
     sudo cp ./uz_UZ.aff /usr/share/hunspell/uz_UZ.aff
     sudo cp ./uz_UZ_Cyrl.dic /usr/share/hunspell/uz_UZ_Cyrl.dic
     sudo cp ./uz_UZ_Cyrl.aff /usr/share/hunspell/uz_UZ_Cyrl.aff
+    sudo cp ./uz_UZ_2026.dic /usr/share/hunspell/uz_UZ_2026.dic
+    sudo cp ./uz_UZ_2026.aff /usr/share/hunspell/uz_UZ_2026.aff
     echo "✅ Installed on Linux"
     ;;
 
-  'Darwin') 
+  'Darwin')
     echo "🔧 Copying to ~/Library/Spelling"
     mkdir -p ~/Library/Spelling
     cp ./uz_UZ.dic ~/Library/Spelling/uz_UZ.dic
     cp ./uz_UZ.aff ~/Library/Spelling/uz_UZ.aff
     cp ./uz_UZ_Cyrl.dic ~/Library/Spelling/uz_UZ_Cyrl.dic
     cp ./uz_UZ_Cyrl.aff ~/Library/Spelling/uz_UZ_Cyrl.aff
+    cp ./uz_UZ_2026.dic ~/Library/Spelling/uz_UZ_2026.dic
+    cp ./uz_UZ_2026.aff ~/Library/Spelling/uz_UZ_2026.aff
     echo "✅ Installed on macOS"
     ;;
 
